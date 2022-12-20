@@ -1,20 +1,14 @@
+import {Outlet} from 'react-router-dom'
 import './App.css'
 import Header from './common/header/Header'
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom"
-import Pages from './pages/pages';
+import Head from './common/header/Head'
 
-
-function App(){
-  return(
+const App = () => {
+  return (
     <>
-    <Router>
-    <Header />
-    <Switch>
-          <Route path="/" exact>
-            <Pages />
-          </Route>
-        </Switch>
-    </Router>
+      <Head/>
+      {/* <Header /> */}
+      <Outlet/>
     </>
   )
 }
