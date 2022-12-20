@@ -1,20 +1,23 @@
+import { Outlet, useNavigate } from "react-router";
+import Header from "./common/header/Header";
+import { useEffect } from "react";
+
 import './App.css'
-import Header from './common/header/Header'
-import { BrowserRouter as Router, Switch} from "react-router-dom"
 
 
-function App(){
-  return(
+const App = () => {
+  
+
+
+
+  return (
     <>
-    <Router>
-    <Header />
-    <Switch>
-          {/* <Route path="/" exact>
-            <About />
-          </Route> */}
-        </Switch>
-    </Router>
+      <Header />
+      <div className="container">
+        <Outlet />  
+      </div>
     </>
-  )
+  );
 }
+
 export default App;

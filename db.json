@@ -1,0 +1,33 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "url": "https://klike.net/uploads/posts/2020-07/1594278030_1.jpg",
+      "model": "redmi",
+      "price": "14.50$"
+    },
+    {
+      "id": 2,
+      "url": "https://klike.net/uploads/posts/2020-07/1594278030_1.jpg",
+      "model": "samsung",
+      "price": "10.50$"
+    },
+    {
+      "id": 11,
+      "url": "https://klike.net/uploads/posts/2020-07/1594278030_1.jpg",
+      "model": "redmi",
+      "price": "14.50$"
+    },
+    {
+      "id": 22,
+      "url": "https://klike.net/uploads/posts/2020-07/1594278030_1.jpg",
+      "model": "samsung",
+      "price": "10.50$"
+    }
+  ],
+  "cart": [],
+  "user": {
+    "username": "vlad",
+    "balance": 964.5
+  }
+}
