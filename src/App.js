@@ -6,8 +6,8 @@ import Head from './common/header/Head'
 const App = () => {
   return (
     <>
-      <Head/>
-      {/* <Header /> */}
+      {/* <Head/> */}
+      <Header />
       <Outlet/>
     </>
   )

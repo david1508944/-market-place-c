@@ -22,10 +22,7 @@ const routes = [
                 path: 'registration',
                 element: <Registration />
             },
-            {
-                path: 'header',
-                element: <Header />
-            },
+           
             {
                 path: '*',
                 element: <Navigate to='/' />,

@@ -31,7 +31,7 @@ const Login = () => {
         } else {
           dispatch(ChangeUser(user));
           localStorage.setItem("user", JSON.stringify(user));
-          navigate("/Header");
+          navigate("/home");
         }
       });
   };
