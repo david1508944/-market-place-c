@@ -3,21 +3,18 @@ import Header from "./common/header/Header";
 import { useEffect } from "react";
 
 import './App.css'
-
+import Header from './common/header/Header'
+import Head from './common/header/Head'
 
 const App = () => {
-  
-
-
-
   return (
     <>
+      {/* <Head/> */}
       <Header />
-      <div className="container">
-        <Outlet />  
-      </div>
+      <Outlet/>
     </>
   );
 }
 
 export default App;
+
