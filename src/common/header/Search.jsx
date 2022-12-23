@@ -1,16 +1,14 @@
 import React from "react";
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { cartsSelector } from "../../redux/slices/cartSlice";
-import { getCarts } from "../../redux/thunks/cartThunk";
 import  logo  from "../components/assets/images/logo.png"
 import './Header.css'
 
 const Search = () => {
   const cart = useSelector(cartsSelector)
 
-  
   useEffect(() => {
     const listener = function(){
       const search = document.querySelector(".search")
