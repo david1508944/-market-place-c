@@ -126,3 +126,21 @@ color: white;
 .boxShadow{
   box-shadow: rgb(43 52 69/10%) 0 4px 16px;
 }
+.images {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+}
+.home-contain{
+  display: flex;
+  gap: 5rem;
+}

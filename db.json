@@ -11,6 +11,46 @@
       "email": "gggg@m",
       "password": "999",
       "id": 2
+    },
+    {
+      "username": "Alex",
+      "email": "anahit.abrahamyan1992@mail.ru",
+      "password": "99999",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "url": "https://klike.net/uploads/posts/2020-07/1594278030_1.jpg",
+      "model": "redmi",
+      "price": "14.50$"
+    },
+    {
+      "id": 2,
+      "url": "https://klike.net/uploads/posts/2020-07/1594278030_1.jpg",
+      "model": "samsung",
+      "price": "10.50$"
+    },
+    {
+      "id": 11,
+      "url": "https://i.pinimg.com/236x/a3/c7/6f/a3c76f7a3b1146d8d09bd120339bae37.jpg",
+      "model": "i phone 13 pro",
+      "price": "14.50$"
+    },
+    {
+      "id": 22,
+      "url": "https://i.pinimg.com/236x/0a/99/82/0a9982dc8629ff0e4c2e5dc165a0d9c7.jpg",
+      "model": "samsung",
+      "price": "10.50$"
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "url": "https://klike.net/uploads/posts/2020-07/1594278030_1.jpg",
+      "model": "samsung",
+      "price": "10.50$"
     }
   ]
 }

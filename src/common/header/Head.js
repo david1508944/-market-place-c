@@ -21,7 +21,7 @@ const Head = () => {
             <label>077 777777</label>
             <i className="fa fa-envelope">
             </i>
-            <label>david.mazmanyan1508@gmail.com</label>
+            <label>Anahit.abrahamyan92@mail.ru</label>
           </div>
           <div className="right row RText">
             {
